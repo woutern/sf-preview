@@ -1,84 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Inter, sans-serif">
-  <rect width="1200" height="500" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Inter, sans-serif">
+  <rect width="1200" height="400" fill="#FFFFFF"/>
 
-  <!-- Title -->
-  <text x="600" y="35" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">WHAT AN X-RAY REVEALS</text>
-  <text x="600" y="62" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Series B SaaS Platform — Healthcare Vertical</text>
-  <text x="600" y="86" text-anchor="middle" fill="#676F7E" font-size="14">Pre-investment X-Ray for a growth-stage VC fund</text>
+  <!-- Left: What the pitch said (clean green checks) -->
+  <g transform="translate(60, 30)">
+    <text x="0" y="16" fill="#676F7E" font-size="10" font-weight="600" letter-spacing="0.15em">THE PITCH</text>
 
-  <!-- Left: What the pitch said -->
-  <g transform="translate(60, 120)">
-    <text x="0" y="0" fill="#676F7E" font-size="10" font-weight="600" letter-spacing="0.1em">WHAT THE PITCH SAID</text>
-
-    <g transform="translate(0, 20)">
-      <rect width="500" height="44" rx="8" fill="#F6F7F8"/>
-      <text x="20" y="28" fill="#676F7E" font-size="13">"Modern tech stack, ready for 10x growth"</text>
-      <rect x="420" y="12" width="60" height="20" rx="10" fill="rgba(34, 197, 94, 0.1)"/>
-      <text x="450" y="26" text-anchor="middle" fill="#22C55E" font-size="9" font-weight="600">CLAIMED</text>
+    <g transform="translate(0, 36)">
+      <rect width="480" height="44" rx="8" fill="#F6F7F8"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(34,197,94,0.15)"/>
+      <text x="24" y="26" text-anchor="middle" fill="#22C55E" font-size="12">&#x2713;</text>
+      <text x="46" y="27" fill="#676F7E" font-size="13">Modern stack, ready for 10x</text>
     </g>
-
-    <g transform="translate(0, 75)">
-      <rect width="500" height="44" rx="8" fill="#F6F7F8"/>
-      <text x="20" y="28" fill="#676F7E" font-size="13">"Strong engineering team of 12"</text>
-      <rect x="420" y="12" width="60" height="20" rx="10" fill="rgba(34, 197, 94, 0.1)"/>
-      <text x="450" y="26" text-anchor="middle" fill="#22C55E" font-size="9" font-weight="600">CLAIMED</text>
+    <g transform="translate(0, 90)">
+      <rect width="480" height="44" rx="8" fill="#F6F7F8"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(34,197,94,0.15)"/>
+      <text x="24" y="26" text-anchor="middle" fill="#22C55E" font-size="12">&#x2713;</text>
+      <text x="46" y="27" fill="#676F7E" font-size="13">Strong team of 12 engineers</text>
     </g>
-
-    <g transform="translate(0, 130)">
-      <rect width="500" height="44" rx="8" fill="#F6F7F8"/>
-      <text x="20" y="28" fill="#676F7E" font-size="13">"AI-powered prediction model in production"</text>
-      <rect x="420" y="12" width="60" height="20" rx="10" fill="rgba(34, 197, 94, 0.1)"/>
-      <text x="450" y="26" text-anchor="middle" fill="#22C55E" font-size="9" font-weight="600">CLAIMED</text>
+    <g transform="translate(0, 144)">
+      <rect width="480" height="44" rx="8" fill="#F6F7F8"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(34,197,94,0.15)"/>
+      <text x="24" y="26" text-anchor="middle" fill="#22C55E" font-size="12">&#x2713;</text>
+      <text x="46" y="27" fill="#676F7E" font-size="13">AI model in production</text>
     </g>
-
-    <g transform="translate(0, 185)">
-      <rect width="500" height="44" rx="8" fill="#F6F7F8"/>
-      <text x="20" y="28" fill="#676F7E" font-size="13">"Security is a top priority"</text>
-      <rect x="420" y="12" width="60" height="20" rx="10" fill="rgba(34, 197, 94, 0.1)"/>
-      <text x="450" y="26" text-anchor="middle" fill="#22C55E" font-size="9" font-weight="600">CLAIMED</text>
+    <g transform="translate(0, 198)">
+      <rect width="480" height="44" rx="8" fill="#F6F7F8"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(34,197,94,0.15)"/>
+      <text x="24" y="26" text-anchor="middle" fill="#22C55E" font-size="12">&#x2713;</text>
+      <text x="46" y="27" fill="#676F7E" font-size="13">Security is a top priority</text>
     </g>
   </g>
 
-  <!-- Right: What the X-Ray found -->
-  <g transform="translate(640, 120)">
-    <text x="0" y="0" fill="#EE5B2B" font-size="10" font-weight="600" letter-spacing="0.1em">WHAT THE X-RAY FOUND</text>
+  <!-- Right: What the X-Ray found (warning/red indicators) -->
+  <g transform="translate(660, 30)">
+    <text x="0" y="16" fill="#EE5B2B" font-size="10" font-weight="600" letter-spacing="0.15em">THE X-RAY</text>
 
-    <g transform="translate(0, 20)">
-      <rect width="500" height="44" rx="8" fill="rgba(234, 179, 8, 0.04)" stroke="rgba(234, 179, 8, 0.15)" stroke-width="1"/>
-      <text x="20" y="28" fill="#1D2330" font-size="13">Platform breaks at 2x current load — not 10x</text>
-      <rect x="405" y="12" width="75" height="20" rx="10" fill="rgba(234, 179, 8, 0.1)"/>
-      <text x="442" y="26" text-anchor="middle" fill="#EAB308" font-size="9" font-weight="600">MODERATE</text>
+    <g transform="translate(0, 36)">
+      <rect width="480" height="44" rx="8" fill="rgba(234,179,8,0.04)" stroke="rgba(234,179,8,0.15)" stroke-width="1"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(234,179,8,0.15)"/>
+      <text x="24" y="27" text-anchor="middle" fill="#EAB308" font-size="14" font-weight="700">!</text>
+      <text x="46" y="27" fill="#1D2330" font-size="13">Breaks at 2x, not 10x</text>
     </g>
-
-    <g transform="translate(0, 75)">
-      <rect width="500" height="44" rx="8" fill="rgba(238, 91, 43, 0.04)" stroke="rgba(238, 91, 43, 0.15)" stroke-width="1"/>
-      <text x="20" y="28" fill="#1D2330" font-size="13">2 developers write 72% of code — bus factor = 1</text>
-      <rect x="420" y="12" width="60" height="20" rx="10" fill="rgba(238, 91, 43, 0.1)"/>
-      <text x="450" y="26" text-anchor="middle" fill="#EE5B2B" font-size="9" font-weight="600">HIGH</text>
+    <g transform="translate(0, 90)">
+      <rect width="480" height="44" rx="8" fill="rgba(238,91,43,0.04)" stroke="rgba(238,91,43,0.15)" stroke-width="1"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(238,91,43,0.15)"/>
+      <text x="24" y="27" text-anchor="middle" fill="#EE5B2B" font-size="14" font-weight="700">!</text>
+      <text x="46" y="27" fill="#1D2330" font-size="13">2 devs write 72% of code</text>
     </g>
-
-    <g transform="translate(0, 130)">
-      <rect width="500" height="44" rx="8" fill="rgba(234, 179, 8, 0.04)" stroke="rgba(234, 179, 8, 0.15)" stroke-width="1"/>
-      <text x="20" y="28" fill="#1D2330" font-size="13">AI model has 0% test coverage, no CI/CD</text>
-      <rect x="405" y="12" width="75" height="20" rx="10" fill="rgba(234, 179, 8, 0.1)"/>
-      <text x="442" y="26" text-anchor="middle" fill="#EAB308" font-size="9" font-weight="600">MODERATE</text>
+    <g transform="translate(0, 144)">
+      <rect width="480" height="44" rx="8" fill="rgba(234,179,8,0.04)" stroke="rgba(234,179,8,0.15)" stroke-width="1"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(234,179,8,0.15)"/>
+      <text x="24" y="27" text-anchor="middle" fill="#EAB308" font-size="14" font-weight="700">!</text>
+      <text x="46" y="27" fill="#1D2330" font-size="13">0% test coverage on AI model</text>
     </g>
-
-    <g transform="translate(0, 185)">
-      <rect width="500" height="44" rx="8" fill="rgba(239, 68, 68, 0.04)" stroke="rgba(239, 68, 68, 0.15)" stroke-width="1"/>
-      <text x="20" y="28" fill="#1D2330" font-size="13">SQL injection vulnerability in core booking service</text>
-      <rect x="420" y="12" width="60" height="20" rx="10" fill="rgba(239, 68, 68, 0.1)"/>
-      <text x="450" y="26" text-anchor="middle" fill="#EF4444" font-size="9" font-weight="600">CRITICAL</text>
+    <g transform="translate(0, 198)">
+      <rect width="480" height="44" rx="8" fill="rgba(239,68,68,0.04)" stroke="rgba(239,68,68,0.15)" stroke-width="1"/>
+      <circle cx="24" cy="22" r="10" fill="rgba(239,68,68,0.15)"/>
+      <text x="24" y="27" text-anchor="middle" fill="#EF4444" font-size="14" font-weight="700">!</text>
+      <text x="46" y="27" fill="#1D2330" font-size="13">SQL injection in core service</text>
     </g>
   </g>
 
-  <!-- Bottom: Outcome -->
-  <g transform="translate(60, 400)">
-    <rect width="1080" height="80" rx="12" fill="#1D2330"/>
-    <text x="30" y="30" fill="rgba(255,255,255,0.4)" font-size="10" font-weight="600" letter-spacing="0.1em">OUTCOME</text>
-    <text x="30" y="55" fill="#FFFFFF" font-size="16" font-weight="700">Investor negotiated €2M valuation adjustment and pre-close remediation plan</text>
-    <text x="30" y="72" fill="rgba(255,255,255,0.4)" font-size="12">Findings delivered in 24 hours — before the term sheet was signed</text>
-    <rect x="920" y="25" width="130" height="36" rx="18" fill="#EE5B2B"/>
-    <text x="985" y="48" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">Run an X-Ray</text>
+  <!-- Bottom verdict -->
+  <g transform="translate(60, 310)">
+    <rect width="1080" height="56" rx="12" fill="#1D2330"/>
+    <text x="30" y="36" fill="#FFFFFF" font-size="17" font-weight="700">Investable with conditions</text>
+    <rect x="860" y="14" width="190" height="28" rx="14" fill="rgba(238,91,43,0.2)"/>
+    <text x="955" y="33" text-anchor="middle" fill="#EE5B2B" font-size="12" font-weight="600">Repriced the deal</text>
   </g>
 </svg>

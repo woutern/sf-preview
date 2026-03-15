@@ -1,78 +1,36 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Inter, sans-serif">
-  <rect width="1200" height="400" fill="#FFFFFF"/>
-
-  <!-- Title -->
-  <text x="80" y="35" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">X-RAY BENCHMARK — TRAJECTORY</text>
-  <text x="80" y="58" fill="#1D2330" font-size="18" font-weight="700">Development Velocity &amp; Team Evolution</text>
-  <rect x="980" y="20" width="180" height="28" rx="14" fill="rgba(34, 197, 94, 0.1)"/>
-  <text x="1070" y="39" text-anchor="middle" fill="#22C55E" font-size="12" font-weight="600">+88% velocity growth</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" font-family="Inter, sans-serif">
+  <rect width="1200" height="280" fill="#FFFFFF"/>
 
   <!-- Chart area -->
-  <g transform="translate(80, 90)">
+  <g transform="translate(80, 30)">
     <!-- Y axis -->
-    <line x1="0" y1="0" x2="0" y2="220" stroke="#E5E7EB" stroke-width="1"/>
-    <text x="-10" y="5" text-anchor="end" fill="#676F7E" font-size="10">High</text>
-    <text x="-10" y="115" text-anchor="end" fill="#676F7E" font-size="10">Mid</text>
-    <text x="-10" y="220" text-anchor="end" fill="#676F7E" font-size="10">Low</text>
-
+    <line x1="0" y1="0" x2="0" y2="180" stroke="#E5E7EB" stroke-width="1"/>
     <!-- X axis -->
-    <line x1="0" y1="220" x2="1040" y2="220" stroke="#E5E7EB" stroke-width="1"/>
+    <line x1="0" y1="180" x2="1040" y2="180" stroke="#E5E7EB" stroke-width="1"/>
+    <!-- Grid -->
+    <line x1="0" y1="60" x2="1040" y2="60" stroke="#F6F7F8" stroke-width="1"/>
+    <line x1="0" y1="120" x2="1040" y2="120" stroke="#F6F7F8" stroke-width="1"/>
 
-    <!-- Grid lines -->
-    <line x1="0" y1="55" x2="1040" y2="55" stroke="#F6F7F8" stroke-width="1"/>
-    <line x1="0" y1="110" x2="1040" y2="110" stroke="#F6F7F8" stroke-width="1"/>
-    <line x1="0" y1="165" x2="1040" y2="165" stroke="#F6F7F8" stroke-width="1"/>
+    <!-- Velocity curve -->
+    <polyline points="0,160 120,155 240,145 360,140 480,130 600,115 720,90 840,55 960,25 1020,10" fill="none" stroke="#EE5B2B" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <!-- Area fill -->
+    <polygon points="0,160 120,155 240,145 360,140 480,130 600,115 720,90 840,55 960,25 1020,10 1020,180 0,180" fill="rgba(238,91,43,0.05)"/>
+
+    <!-- Key dots -->
+    <circle cx="0" cy="160" r="4" fill="#EE5B2B"/>
+    <circle cx="480" cy="130" r="4" fill="#EE5B2B"/>
+    <circle cx="840" cy="55" r="4" fill="#EE5B2B"/>
+    <circle cx="1020" cy="10" r="5" fill="#22C55E"/>
 
     <!-- Time labels -->
-    <text x="0" y="240" fill="#676F7E" font-size="10">2021</text>
-    <text x="200" y="240" fill="#676F7E" font-size="10">2022</text>
-    <text x="400" y="240" fill="#676F7E" font-size="10">2023</text>
-    <text x="600" y="240" fill="#676F7E" font-size="10">2024</text>
-    <text x="800" y="240" fill="#676F7E" font-size="10">2025</text>
-    <text x="1000" y="240" fill="#676F7E" font-size="10">2026</text>
-
-    <!-- Velocity line (commits/month) — starts low, accelerates -->
-    <polyline points="0,190 100,185 200,175 300,170 400,160 500,155 600,140 700,120 800,90 900,60 1000,30" fill="none" stroke="#EE5B2B" stroke-width="2.5" stroke-linejoin="round"/>
-
-    <!-- Area fill under the line -->
-    <polygon points="0,190 100,185 200,175 300,170 400,160 500,155 600,140 700,120 800,90 900,60 1000,30 1000,220 0,220" fill="rgba(238, 91, 43, 0.06)"/>
-
-    <!-- Milestone markers -->
-    <g transform="translate(0, 190)">
-      <circle cx="0" cy="0" r="5" fill="#EE5B2B"/>
-      <line x1="0" y1="5" x2="0" y2="30" stroke="#EE5B2B" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
-      <text x="0" y="45" text-anchor="middle" fill="#676F7E" font-size="9">Platform</text>
-      <text x="0" y="55" text-anchor="middle" fill="#676F7E" font-size="9">started</text>
-    </g>
-
-    <g transform="translate(400, 160)">
-      <circle cx="0" cy="0" r="5" fill="#EE5B2B"/>
-      <line x1="0" y1="5" x2="0" y2="30" stroke="#EE5B2B" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
-      <text x="0" y="45" text-anchor="middle" fill="#676F7E" font-size="9">Student</text>
-      <text x="0" y="55" text-anchor="middle" fill="#676F7E" font-size="9">program</text>
-    </g>
-
-    <g transform="translate(800, 90)">
-      <circle cx="0" cy="0" r="5" fill="#EE5B2B"/>
-      <line x1="0" y1="5" x2="0" y2="30" stroke="#EE5B2B" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
-      <text x="0" y="45" text-anchor="middle" fill="#676F7E" font-size="9">v2.0 merge</text>
-    </g>
-
-    <g transform="translate(950, 45)">
-      <circle cx="0" cy="0" r="5" fill="#22C55E"/>
-      <line x1="0" y1="5" x2="0" y2="30" stroke="#22C55E" stroke-width="1" stroke-dasharray="3,2" opacity="0.4"/>
-      <text x="0" y="45" text-anchor="middle" fill="#22C55E" font-size="9">AI-assisted</text>
-      <text x="0" y="55" text-anchor="middle" fill="#22C55E" font-size="9">development</text>
-    </g>
-
-    <!-- Team size indicators at top -->
-    <rect x="0" y="-25" width="80" height="18" rx="9" fill="rgba(103, 111, 126, 0.08)"/>
-    <text x="40" y="-12" text-anchor="middle" fill="#676F7E" font-size="9">2 contributors</text>
-
-    <rect x="400" y="-25" width="100" height="18" rx="9" fill="rgba(103, 111, 126, 0.08)"/>
-    <text x="450" y="-12" text-anchor="middle" fill="#676F7E" font-size="9">5+ contributors</text>
-
-    <rect x="900" y="-25" width="100" height="18" rx="9" fill="rgba(238, 91, 43, 0.1)"/>
-    <text x="950" y="-12" text-anchor="middle" fill="#EE5B2B" font-size="9">6+ active now</text>
+    <text x="0" y="200" fill="#676F7E" font-size="10">2021</text>
+    <text x="240" y="200" fill="#676F7E" font-size="10">2022</text>
+    <text x="480" y="200" fill="#676F7E" font-size="10">2023</text>
+    <text x="720" y="200" fill="#676F7E" font-size="10">2024</text>
+    <text x="960" y="200" fill="#676F7E" font-size="10">2025</text>
   </g>
+
+  <!-- Badge -->
+  <rect x="960" y="20" width="180" height="28" rx="14" fill="rgba(34,197,94,0.1)"/>
+  <text x="1050" y="39" text-anchor="middle" fill="#22C55E" font-size="12" font-weight="600">+88% velocity</text>
 </svg>

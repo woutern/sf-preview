@@ -1,66 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" font-family="Inter, sans-serif">
-  <rect width="1200" height="480" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" font-family="Inter, sans-serif">
+  <rect width="1200" height="320" fill="#FFFFFF"/>
 
-  <!-- Title -->
-  <text x="600" y="35" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">X-RAY FINDING — MOST COMMON PATTERN</text>
-  <text x="600" y="62" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Key-Person Dependency</text>
+  <!-- Bars -->
+  <g transform="translate(80, 40)">
+    <circle cx="8" cy="8" r="8" fill="#EE5B2B"/>
+    <rect x="60" y="0" width="500" height="16" rx="4" fill="#EE5B2B"/>
+    <text x="570" y="13" fill="#EE5B2B" font-size="14" font-weight="700">58%</text>
 
-  <!-- Stat callout -->
-  <rect x="440" y="80" width="320" height="50" rx="25" fill="rgba(238, 91, 43, 0.08)"/>
-  <text x="600" y="111" text-anchor="middle" fill="#EE5B2B" font-size="16" font-weight="600">Found in 72% of X-Ray assessments</text>
+    <circle cx="8" cy="44" r="8" fill="rgba(238,91,43,0.5)"/>
+    <rect x="60" y="36" width="120" height="16" rx="4" fill="rgba(238,91,43,0.5)"/>
+    <text x="190" y="49" fill="#EE5B2B" font-size="13" font-weight="600">14%</text>
 
-  <!-- Visual: commit distribution bars -->
-  <g transform="translate(80, 160)">
-    <text x="0" y="0" fill="#1D2330" font-size="14" font-weight="600">Commit distribution — typical finding</text>
-    <text x="0" y="20" fill="#676F7E" font-size="12">Who wrote the code in the last 12 months?</text>
+    <circle cx="8" cy="80" r="8" fill="rgba(103,111,126,0.3)"/>
+    <rect x="60" y="72" width="86" height="16" rx="4" fill="rgba(103,111,126,0.3)"/>
+    <text x="156" y="85" fill="#676F7E" font-size="13">10%</text>
 
-    <!-- Developer 1 — dominant -->
-    <rect x="0" y="42" width="16" height="16" rx="8" fill="#EE5B2B"/>
-    <text x="26" y="55" fill="#1D2330" font-size="13" font-weight="500">Developer A</text>
-    <rect x="180" y="40" width="580" height="20" rx="4" fill="#EE5B2B"/>
-    <text x="770" y="55" fill="#EE5B2B" font-size="13" font-weight="700">58%</text>
+    <circle cx="8" cy="116" r="8" fill="rgba(103,111,126,0.2)"/>
+    <rect x="60" y="108" width="70" height="16" rx="4" fill="rgba(103,111,126,0.2)"/>
+    <text x="140" y="121" fill="#676F7E" font-size="13">8%</text>
 
-    <!-- Developer 2 — secondary -->
-    <rect x="0" y="76" width="16" height="16" rx="8" fill="rgba(238, 91, 43, 0.5)"/>
-    <text x="26" y="89" fill="#1D2330" font-size="13" font-weight="500">Developer B</text>
-    <rect x="180" y="74" width="140" height="20" rx="4" fill="rgba(238, 91, 43, 0.5)"/>
-    <text x="330" y="89" fill="#EE5B2B" font-size="13" font-weight="600">14%</text>
-
-    <!-- Developer 3 -->
-    <rect x="0" y="110" width="16" height="16" rx="8" fill="rgba(103, 111, 126, 0.3)"/>
-    <text x="26" y="123" fill="#1D2330" font-size="13" font-weight="500">Developer C</text>
-    <rect x="180" y="108" width="100" height="20" rx="4" fill="rgba(103, 111, 126, 0.3)"/>
-    <text x="290" y="123" fill="#676F7E" font-size="13">10%</text>
-
-    <!-- Developer 4 -->
-    <rect x="0" y="144" width="16" height="16" rx="8" fill="rgba(103, 111, 126, 0.2)"/>
-    <text x="26" y="157" fill="#1D2330" font-size="13" font-weight="500">Developer D</text>
-    <rect x="180" y="142" width="80" height="20" rx="4" fill="rgba(103, 111, 126, 0.2)"/>
-    <text x="270" y="157" fill="#676F7E" font-size="13">8%</text>
-
-    <!-- Others -->
-    <rect x="0" y="178" width="16" height="16" rx="8" fill="rgba(103, 111, 126, 0.1)"/>
-    <text x="26" y="191" fill="#676F7E" font-size="13">6 other contributors</text>
-    <rect x="180" y="176" width="100" height="20" rx="4" fill="rgba(103, 111, 126, 0.1)"/>
-    <text x="290" y="191" fill="#676F7E" font-size="13">10%</text>
-
-    <!-- Bus factor callout -->
-    <rect x="620" y="60" width="380" height="140" rx="12" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
-    <text x="640" y="92" fill="#EE5B2B" font-size="11" font-weight="600" letter-spacing="0.1em">BUS FACTOR</text>
-    <text x="640" y="130" fill="#1D2330" font-size="48" font-weight="800">1</text>
-    <text x="700" y="115" fill="#676F7E" font-size="13">
-      <tspan x="700" dy="0">Critical systems maintained</tspan>
-      <tspan x="700" dy="18">by a single contributor.</tspan>
-      <tspan x="700" dy="18">If they leave, progress stalls.</tspan>
-    </text>
+    <circle cx="8" cy="152" r="8" fill="rgba(103,111,126,0.1)"/>
+    <rect x="60" y="144" width="86" height="16" rx="4" fill="rgba(103,111,126,0.1)"/>
+    <text x="156" y="157" fill="#676F7E" font-size="13">10%</text>
   </g>
 
-  <!-- Bottom: what to do -->
-  <g transform="translate(80, 400)">
-    <rect width="1040" height="60" rx="10" fill="#F6F7F8"/>
-    <text x="30" y="25" fill="#1D2330" font-size="14" font-weight="600">Verdict: Investable with conditions</text>
-    <text x="30" y="45" fill="#676F7E" font-size="12">Pre-close: cross-training plan, architecture documentation, hiring for redundancy on critical systems.</text>
-    <rect x="880" y="15" width="130" height="32" rx="16" fill="#EE5B2B"/>
-    <text x="945" y="36" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">Run an X-Ray</text>
+  <!-- Bus Factor callout -->
+  <g transform="translate(780, 40)">
+    <rect width="340" height="130" rx="14" fill="#F6F7F8"/>
+    <text x="30" y="30" fill="#EE5B2B" font-size="10" font-weight="600" letter-spacing="0.1em">BUS FACTOR</text>
+    <text x="30" y="80" fill="#1D2330" font-size="60" font-weight="800">1</text>
+    <text x="100" y="65" fill="#676F7E" font-size="13">Critical systems</text>
+    <text x="100" y="85" fill="#676F7E" font-size="13">single contributor</text>
+  </g>
+
+  <!-- Bottom bar -->
+  <g transform="translate(80, 250)">
+    <rect width="1040" height="48" rx="10" fill="#1D2330"/>
+    <text x="30" y="30" fill="#FFFFFF" font-size="14" font-weight="600">Found in 72% of assessments</text>
+    <rect x="880" y="10" width="130" height="28" rx="14" fill="#EE5B2B"/>
+    <text x="945" y="29" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">Run an X-Ray</text>
   </g>
 </svg>

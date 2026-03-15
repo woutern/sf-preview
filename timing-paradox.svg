@@ -1,64 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" font-family="Inter, sans-serif">
-  <rect width="1200" height="420" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" font-family="Inter, sans-serif">
+  <rect width="1200" height="280" fill="#FFFFFF"/>
 
-  <!-- Title -->
-  <text x="600" y="35" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">THE TIMING PARADOX</text>
-  <text x="600" y="62" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">When do you learn what the tech is really worth?</text>
+  <!-- Timeline -->
+  <rect x="60" y="80" width="1080" height="4" rx="2" fill="#E5E7EB"/>
 
-  <!-- Deal timeline -->
-  <rect x="60" y="100" width="1080" height="4" rx="2" fill="#E5E7EB"/>
+  <!-- Milestones -->
+  <circle cx="160" cy="82" r="6" fill="#E5E7EB"/>
+  <text x="160" y="115" text-anchor="middle" fill="#676F7E" font-size="11">First meeting</text>
 
-  <!-- Milestones on the deal timeline -->
-  <g transform="translate(160, 85)">
-    <circle cx="0" cy="19" r="8" fill="#E5E7EB"/>
-    <text x="0" y="55" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="500">First meeting</text>
-  </g>
+  <circle cx="420" cy="82" r="6" fill="#E5E7EB"/>
+  <text x="420" y="115" text-anchor="middle" fill="#676F7E" font-size="11">Term sheet</text>
 
-  <g transform="translate(380, 85)">
-    <circle cx="0" cy="19" r="8" fill="#E5E7EB"/>
-    <text x="0" y="55" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="500">Term sheet</text>
-  </g>
+  <circle cx="680" cy="82" r="8" fill="#EE5B2B"/>
+  <text x="680" y="115" text-anchor="middle" fill="#1D2330" font-size="11" font-weight="700">Valuation locked</text>
 
-  <g transform="translate(600, 85)">
-    <circle cx="0" cy="19" r="10" fill="#EE5B2B"/>
-    <text x="0" y="55" text-anchor="middle" fill="#1D2330" font-size="12" font-weight="700">Valuation locked</text>
-  </g>
+  <circle cx="940" cy="82" r="6" fill="#E5E7EB"/>
+  <text x="940" y="115" text-anchor="middle" fill="#676F7E" font-size="11">Close</text>
 
-  <g transform="translate(820, 85)">
-    <circle cx="0" cy="19" r="8" fill="#E5E7EB"/>
-    <text x="0" y="55" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="500">Signing</text>
-  </g>
-
-  <g transform="translate(1040, 85)">
-    <circle cx="0" cy="19" r="8" fill="#E5E7EB"/>
-    <text x="0" y="55" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="500">Close</text>
-  </g>
-
-  <!-- Traditional DD bar (too late) -->
-  <g transform="translate(60, 170)">
-    <rect x="540" y="0" width="500" height="70" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
-    <rect x="540" y="0" width="4" height="70" rx="2" fill="#E5E7EB"/>
-    <text x="560" y="24" fill="#676F7E" font-size="10" font-weight="600" letter-spacing="0.1em">TRADITIONAL TECH DD</text>
-    <text x="560" y="44" fill="#1D2330" font-size="15" font-weight="600">Findings arrive after valuation is set</text>
-    <text x="560" y="62" fill="#676F7E" font-size="12">3-6 weeks, €25-50K — too late to change deal terms</text>
-    <!-- Arrow pointing to "too late" -->
-    <line x1="540" y1="35" x2="500" y2="35" stroke="#E5E7EB" stroke-width="1" stroke-dasharray="4,3"/>
-    <text x="430" y="39" text-anchor="middle" fill="rgba(239, 68, 68, 0.6)" font-size="11" font-weight="600">TOO LATE</text>
-  </g>
+  <!-- Traditional DD bar (late) -->
+  <rect x="620" y="145" width="440" height="36" rx="8" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="840" y="168" text-anchor="middle" fill="#676F7E" font-size="11">Traditional DD — too late</text>
 
   <!-- Scaleflow X-Ray bar (early) -->
-  <g transform="translate(60, 270)">
-    <rect x="100" y="0" width="280" height="70" rx="10" fill="rgba(238, 91, 43, 0.06)" stroke="#EE5B2B" stroke-width="1.5"/>
-    <rect x="100" y="0" width="4" height="70" rx="2" fill="#EE5B2B"/>
-    <text x="120" y="24" fill="#EE5B2B" font-size="10" font-weight="600" letter-spacing="0.1em">SCALEFLOW X-RAY</text>
-    <text x="120" y="44" fill="#1D2330" font-size="15" font-weight="600">Tech read before the LOI</text>
-    <text x="120" y="62" fill="#676F7E" font-size="12">24 hours, €5-6K — changes how you filter deals</text>
-    <!-- Arrow pointing to "right time" -->
-    <line x1="380" y1="35" x2="420" y2="35" stroke="#EE5B2B" stroke-width="1" stroke-dasharray="4,3"/>
-    <text x="480" y="39" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="600">BEFORE TERMS</text>
-  </g>
-
-  <!-- Bottom insight -->
-  <rect x="200" y="370" width="800" height="36" rx="18" fill="#F6F7F8"/>
-  <text x="600" y="393" text-anchor="middle" fill="#676F7E" font-size="13">Investors receive technical findings after committing to a valuation — eliminating the leverage to act on them.</text>
+  <rect x="180" y="200" width="220" height="36" rx="8" fill="rgba(238,91,43,0.06)" stroke="#EE5B2B" stroke-width="1.5"/>
+  <text x="290" y="223" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="600">X-Ray — before terms</text>
 </svg>
