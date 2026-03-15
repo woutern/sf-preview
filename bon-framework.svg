@@ -1,36 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" font-family="Inter, sans-serif">
   <rect width="1200" height="280" fill="#FFFFFF"/>
 
-  <!-- B -->
+  <!-- Left: Roadmap items without BON (messy) -->
   <g transform="translate(60, 30)">
-    <rect width="340" height="220" rx="14" fill="#F6F7F8"/>
-    <rect width="340" height="5" rx="2.5" fill="#EE5B2B"/>
-    <text x="170" y="70" text-anchor="middle" fill="#EE5B2B" font-size="48" font-weight="800">B</text>
-    <text x="170" y="105" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Build</text>
-    <text x="170" y="135" text-anchor="middle" fill="#676F7E" font-size="13">New features</text>
-    <rect x="55" y="160" width="230" height="28" rx="14" fill="rgba(238,91,43,0.08)"/>
-    <text x="170" y="179" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="500">BON: What revenue does this unlock?</text>
+    <rect width="460" height="220" rx="14" fill="#F6F7F8"/>
+    <text x="230" y="30" text-anchor="middle" fill="#676F7E" font-size="10" font-weight="600" letter-spacing="0.15em">WITHOUT BON</text>
+
+    <rect x="20" y="50" width="420" height="32" rx="6" fill="rgba(238,91,43,0.04)" stroke="rgba(238,91,43,0.12)" stroke-width="1"/>
+    <text x="36" y="71" fill="#676F7E" font-size="12">Rebuild auth system</text>
+    <text x="400" y="71" text-anchor="end" fill="rgba(238,91,43,0.4)" font-size="10">no business case</text>
+
+    <rect x="20" y="92" width="420" height="32" rx="6" fill="rgba(238,91,43,0.04)" stroke="rgba(238,91,43,0.12)" stroke-width="1"/>
+    <text x="36" y="113" fill="#676F7E" font-size="12">AI chatbot for support</text>
+    <text x="400" y="113" text-anchor="end" fill="rgba(238,91,43,0.4)" font-size="10">no business case</text>
+
+    <rect x="20" y="134" width="420" height="32" rx="6" fill="rgba(238,91,43,0.04)" stroke="rgba(238,91,43,0.12)" stroke-width="1"/>
+    <text x="36" y="155" fill="#676F7E" font-size="12">Mobile app v2</text>
+    <text x="400" y="155" text-anchor="end" fill="rgba(238,91,43,0.4)" font-size="10">no business case</text>
+
+    <rect x="20" y="176" width="420" height="32" rx="6" fill="rgba(238,91,43,0.04)" stroke="rgba(238,91,43,0.12)" stroke-width="1"/>
+    <text x="36" y="197" fill="#676F7E" font-size="12">Migrate to microservices</text>
+    <text x="400" y="197" text-anchor="end" fill="rgba(238,91,43,0.4)" font-size="10">no business case</text>
   </g>
 
-  <!-- O -->
-  <g transform="translate(430, 30)">
-    <rect width="340" height="220" rx="14" fill="#F6F7F8"/>
-    <rect width="340" height="5" rx="2.5" fill="#1D2330"/>
-    <text x="170" y="70" text-anchor="middle" fill="#1D2330" font-size="48" font-weight="800">O</text>
-    <text x="170" y="105" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Operate</text>
-    <text x="170" y="135" text-anchor="middle" fill="#676F7E" font-size="13">Maintain &amp; improve</text>
-    <rect x="50" y="160" width="240" height="28" rx="14" fill="rgba(29,35,48,0.06)"/>
-    <text x="170" y="179" text-anchor="middle" fill="#1D2330" font-size="11" font-weight="500">BON: What cost or risk does this reduce?</text>
+  <!-- Arrow -->
+  <g transform="translate(540, 135)">
+    <line x1="0" y1="0" x2="40" y2="0" stroke="#EE5B2B" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="36,-5 46,0 36,5" fill="#EE5B2B"/>
   </g>
 
-  <!-- N -->
-  <g transform="translate(800, 30)">
-    <rect width="340" height="220" rx="14" fill="#F6F7F8"/>
-    <rect width="340" height="5" rx="2.5" fill="#676F7E"/>
-    <text x="170" y="70" text-anchor="middle" fill="#676F7E" font-size="48" font-weight="800">N</text>
-    <text x="170" y="105" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">iNnovate</text>
-    <text x="170" y="135" text-anchor="middle" fill="#676F7E" font-size="13">Experiment &amp; explore</text>
-    <rect x="35" y="160" width="270" height="28" rx="14" fill="rgba(103,111,126,0.08)"/>
-    <text x="170" y="179" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="500">BON: What future option does this create?</text>
+  <!-- Right: With BON (clear, prioritized) -->
+  <g transform="translate(610, 30)">
+    <rect width="540" height="220" rx="14" fill="rgba(238,91,43,0.02)" stroke="#EE5B2B" stroke-width="1.5"/>
+    <text x="270" y="30" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="600" letter-spacing="0.15em">WITH BON — BACK OF A NAPKIN BUSINESS CASE</text>
+
+    <rect x="20" y="50" width="500" height="32" rx="6" fill="rgba(34,197,94,0.04)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="36" y="71" fill="#1D2330" font-size="12" font-weight="600">AI chatbot for support</text>
+    <text x="480" y="71" text-anchor="end" fill="#22C55E" font-size="10" font-weight="600">-&#x20AC;180K/yr support cost</text>
+
+    <rect x="20" y="92" width="500" height="32" rx="6" fill="rgba(34,197,94,0.04)" stroke="rgba(34,197,94,0.2)" stroke-width="1"/>
+    <text x="36" y="113" fill="#1D2330" font-size="12" font-weight="600">Mobile app v2</text>
+    <text x="480" y="113" text-anchor="end" fill="#22C55E" font-size="10" font-weight="600">+&#x20AC;400K new revenue</text>
+
+    <rect x="20" y="134" width="500" height="32" rx="6" fill="rgba(234,179,8,0.04)" stroke="rgba(234,179,8,0.15)" stroke-width="1"/>
+    <text x="36" y="155" fill="#1D2330" font-size="12">Rebuild auth system</text>
+    <text x="480" y="155" text-anchor="end" fill="#EAB308" font-size="10">reduces risk, no direct ROI</text>
+
+    <rect x="20" y="176" width="500" height="32" rx="6" fill="rgba(103,111,126,0.04)" stroke="rgba(103,111,126,0.1)" stroke-width="1"/>
+    <text x="36" y="197" fill="#676F7E" font-size="12">Migrate to microservices</text>
+    <text x="480" y="197" text-anchor="end" fill="#676F7E" font-size="10">deprioritized — no clear case</text>
   </g>
 </svg>
