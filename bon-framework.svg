@@ -8,8 +8,8 @@
     <text x="170" y="70" text-anchor="middle" fill="#EE5B2B" font-size="48" font-weight="800">B</text>
     <text x="170" y="105" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Build</text>
     <text x="170" y="135" text-anchor="middle" fill="#676F7E" font-size="13">New features</text>
-    <rect x="110" y="165" width="120" height="28" rx="14" fill="rgba(238,91,43,0.08)"/>
-    <text x="170" y="184" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="500">Vision-driven</text>
+    <rect x="55" y="160" width="230" height="28" rx="14" fill="rgba(238,91,43,0.08)"/>
+    <text x="170" y="179" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="500">BON: What revenue does this unlock?</text>
   </g>
 
   <!-- O -->
@@ -19,8 +19,8 @@
     <text x="170" y="70" text-anchor="middle" fill="#1D2330" font-size="48" font-weight="800">O</text>
     <text x="170" y="105" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Operate</text>
     <text x="170" y="135" text-anchor="middle" fill="#676F7E" font-size="13">Maintain &amp; improve</text>
-    <rect x="100" y="165" width="140" height="28" rx="14" fill="rgba(29,35,48,0.06)"/>
-    <text x="170" y="184" text-anchor="middle" fill="#1D2330" font-size="11" font-weight="500">Customer-driven</text>
+    <rect x="50" y="160" width="240" height="28" rx="14" fill="rgba(29,35,48,0.06)"/>
+    <text x="170" y="179" text-anchor="middle" fill="#1D2330" font-size="11" font-weight="500">BON: What cost or risk does this reduce?</text>
   </g>
 
   <!-- N -->
@@ -30,7 +30,7 @@
     <text x="170" y="70" text-anchor="middle" fill="#676F7E" font-size="48" font-weight="800">N</text>
     <text x="170" y="105" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">iNnovate</text>
     <text x="170" y="135" text-anchor="middle" fill="#676F7E" font-size="13">Experiment &amp; explore</text>
-    <rect x="105" y="165" width="130" height="28" rx="14" fill="rgba(103,111,126,0.08)"/>
-    <text x="170" y="184" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="500">Research-driven</text>
+    <rect x="35" y="160" width="270" height="28" rx="14" fill="rgba(103,111,126,0.08)"/>
+    <text x="170" y="179" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="500">BON: What future option does this create?</text>
   </g>
 </svg>

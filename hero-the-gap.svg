@@ -1,62 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" font-family="Inter, sans-serif">
-  <rect width="1200" height="600" fill="#1D2330"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 600" font-family="Inter, sans-serif">
+  <rect width="1400" height="600" fill="#1D2330"/>
 
-  <!-- Left block: clean, ordered -->
-  <g transform="translate(80, 80)">
-    <rect width="420" height="440" rx="20" fill="rgba(255,255,255,0.04)"/>
-    <text x="210" y="40" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11" font-weight="600" letter-spacing="0.2em">COMMERCIAL AMBITION</text>
+  <!-- Left block: clean, ordered — pushed further left -->
+  <g transform="translate(40, 80)">
+    <rect width="440" height="440" rx="20" fill="rgba(255,255,255,0.04)"/>
+    <text x="220" y="40" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11" font-weight="600" letter-spacing="0.2em">COMMERCIAL AMBITION</text>
 
-    <!-- Clean rising bars -->
-    <rect x="60" y="280" width="50" height="120" rx="6" fill="rgba(34, 197, 94, 0.25)"/>
-    <rect x="130" y="230" width="50" height="170" rx="6" fill="rgba(34, 197, 94, 0.35)"/>
-    <rect x="200" y="170" width="50" height="230" rx="6" fill="rgba(34, 197, 94, 0.45)"/>
-    <rect x="270" y="110" width="50" height="290" rx="6" fill="rgba(34, 197, 94, 0.6)"/>
+    <rect x="60" y="280" width="55" height="120" rx="6" fill="rgba(34, 197, 94, 0.25)"/>
+    <rect x="140" y="230" width="55" height="170" rx="6" fill="rgba(34, 197, 94, 0.35)"/>
+    <rect x="220" y="170" width="55" height="230" rx="6" fill="rgba(34, 197, 94, 0.45)"/>
+    <rect x="300" y="110" width="55" height="290" rx="6" fill="rgba(34, 197, 94, 0.6)"/>
 
-    <!-- Arrow up -->
-    <line x1="340" y1="380" x2="340" y2="120" stroke="rgba(34, 197, 94, 0.4)" stroke-width="2"/>
-    <polygon points="334,128 340,110 346,128" fill="rgba(34, 197, 94, 0.4)"/>
+    <line x1="375" y1="380" x2="375" y2="120" stroke="rgba(34, 197, 94, 0.4)" stroke-width="2"/>
+    <polygon points="369,128 375,110 381,128" fill="rgba(34, 197, 94, 0.4)"/>
 
-    <text x="210" y="430" text-anchor="middle" fill="rgba(255,255,255,0.15)" font-size="42" font-weight="800">The Pitch</text>
+    <text x="220" y="430" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="44" font-weight="800">The Pitch</text>
   </g>
 
-  <!-- Center: THE GAP -->
-  <g transform="translate(520, 200)">
-    <rect width="160" height="200" rx="80" fill="#EE5B2B" opacity="0.12"/>
-    <rect x="30" y="60" width="100" height="80" rx="40" fill="#EE5B2B"/>
-    <text x="80" y="96" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="0.15em">THE GAP</text>
-    <text x="80" y="118" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">What we find</text>
+  <!-- Center: THE GAP — wider spacing -->
+  <g transform="translate(580, 200)">
+    <rect width="240" height="200" rx="120" fill="#EE5B2B" opacity="0.08"/>
+    <rect x="70" y="60" width="100" height="80" rx="40" fill="#EE5B2B"/>
+    <text x="120" y="96" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="700" letter-spacing="0.15em">THE GAP</text>
+    <text x="120" y="118" text-anchor="middle" fill="rgba(255,255,255,0.6)" font-size="10">What we find</text>
 
-    <!-- Pulse rings -->
-    <circle cx="80" cy="100" r="60" fill="none" stroke="#EE5B2B" stroke-width="1" opacity="0.2"/>
-    <circle cx="80" cy="100" r="80" fill="none" stroke="#EE5B2B" stroke-width="0.5" opacity="0.1"/>
+    <circle cx="120" cy="100" r="80" fill="none" stroke="#EE5B2B" stroke-width="1" opacity="0.15"/>
+    <circle cx="120" cy="100" r="105" fill="none" stroke="#EE5B2B" stroke-width="0.5" opacity="0.08"/>
   </g>
 
-  <!-- Right block: messy, risky -->
-  <g transform="translate(700, 80)">
-    <rect width="420" height="440" rx="20" fill="rgba(238, 91, 43, 0.04)"/>
-    <text x="210" y="40" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11" font-weight="600" letter-spacing="0.2em">TECHNICAL REALITY</text>
+  <!-- Right block: messy, risky — pushed further right -->
+  <g transform="translate(920, 80)">
+    <rect width="440" height="440" rx="20" fill="rgba(238, 91, 43, 0.04)"/>
+    <text x="220" y="40" text-anchor="middle" fill="rgba(255,255,255,0.25)" font-size="11" font-weight="600" letter-spacing="0.2em">TECHNICAL REALITY</text>
 
-    <!-- Chaotic bars with gaps and drops -->
-    <rect x="60" y="180" width="50" height="220" rx="6" fill="rgba(238, 91, 43, 0.2)"/>
-    <rect x="60" y="160" width="50" height="12" rx="6" fill="rgba(239, 68, 68, 0.5)"/>
+    <rect x="60" y="180" width="55" height="220" rx="6" fill="rgba(238, 91, 43, 0.2)"/>
+    <rect x="60" y="160" width="55" height="12" rx="6" fill="rgba(239, 68, 68, 0.5)"/>
 
-    <rect x="130" y="250" width="50" height="150" rx="6" fill="rgba(238, 91, 43, 0.25)"/>
+    <rect x="140" y="250" width="55" height="150" rx="6" fill="rgba(238, 91, 43, 0.25)"/>
 
-    <rect x="200" y="140" width="50" height="260" rx="6" fill="rgba(238, 91, 43, 0.3)"/>
-    <rect x="200" y="120" width="50" height="12" rx="6" fill="rgba(239, 68, 68, 0.5)"/>
+    <rect x="220" y="140" width="55" height="260" rx="6" fill="rgba(238, 91, 43, 0.3)"/>
+    <rect x="220" y="120" width="55" height="12" rx="6" fill="rgba(239, 68, 68, 0.5)"/>
 
-    <rect x="270" y="300" width="50" height="100" rx="6" fill="rgba(238, 91, 43, 0.15)"/>
+    <rect x="300" y="300" width="55" height="100" rx="6" fill="rgba(238, 91, 43, 0.15)"/>
 
-    <!-- Warning dots -->
-    <circle cx="85" cy="150" r="8" fill="rgba(239, 68, 68, 0.7)"/>
-    <text x="85" y="154" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">!</text>
-    <circle cx="225" cy="110" r="8" fill="rgba(239, 68, 68, 0.7)"/>
-    <text x="225" y="114" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">!</text>
+    <circle cx="87" cy="150" r="8" fill="rgba(239, 68, 68, 0.7)"/>
+    <text x="87" y="154" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">!</text>
+    <circle cx="247" cy="110" r="8" fill="rgba(239, 68, 68, 0.7)"/>
+    <text x="247" y="114" text-anchor="middle" fill="#fff" font-size="9" font-weight="700">!</text>
 
-    <text x="210" y="430" text-anchor="middle" fill="rgba(255,255,255,0.15)" font-size="42" font-weight="800">The Reality</text>
+    <text x="220" y="430" text-anchor="middle" fill="rgba(255,255,255,0.12)" font-size="44" font-weight="800">The Reality</text>
   </g>
 
   <!-- Bottom tagline -->
-  <rect x="0" y="545" width="1200" height="55" fill="rgba(0,0,0,0.3)"/>
-  <text x="600" y="578" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="14">We close the gap — in 1 business day.</text>
+  <rect x="0" y="545" width="1400" height="55" fill="rgba(0,0,0,0.3)"/>
+  <text x="700" y="578" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="14">We close the gap — in 1 business day.</text>
 </svg>
