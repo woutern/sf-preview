@@ -1,68 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" font-family="Inter, sans-serif">
-  <rect width="1200" height="280" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" font-family="Inter, sans-serif">
+  <rect width="1200" height="200" fill="#FFFFFF"/>
 
-  <!-- Step 1: Connect -->
-  <g transform="translate(60, 30)">
-    <circle cx="100" cy="70" r="50" fill="rgba(238, 91, 43, 0.08)"/>
-    <rect x="80" y="52" width="40" height="36" rx="4" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
-    <circle cx="100" cy="70" r="6" fill="#EE5B2B"/>
-    <text x="100" y="150" text-anchor="middle" fill="#1D2330" font-size="18" font-weight="700">Connect</text>
-    <text x="100" y="174" text-anchor="middle" fill="#676F7E" font-size="13">5 min setup</text>
-  </g>
+  <!-- Step 1 -->
+  <circle cx="150" cy="80" r="44" fill="rgba(238, 91, 43, 0.07)"/>
+  <rect x="133" y="64" width="34" height="32" rx="4" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
+  <circle cx="150" cy="80" r="5" fill="#EE5B2B"/>
+  <text x="150" y="152" text-anchor="middle" fill="#1D2330" font-size="15" font-weight="700">Connect</text>
 
-  <!-- Arrow 1 -->
-  <g transform="translate(245, 95)">
-    <line x1="0" y1="0" x2="60" y2="0" stroke="#E5E7EB" stroke-width="2.5" stroke-linecap="round"/>
-    <polygon points="55,-5 65,0 55,5" fill="#E5E7EB"/>
-  </g>
+  <!-- Arrow -->
+  <line x1="220" y1="80" x2="280" y2="80" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="276,75 286,80 276,85" fill="#E5E7EB"/>
 
-  <!-- Step 2: Analyze -->
-  <g transform="translate(340, 30)">
-    <circle cx="100" cy="70" r="50" fill="rgba(238, 91, 43, 0.08)"/>
-    <rect x="78" y="50" width="44" height="6" rx="3" fill="#EE5B2B"/>
-    <rect x="78" y="62" width="36" height="6" rx="3" fill="#EE5B2B" opacity="0.7"/>
-    <rect x="78" y="74" width="28" height="6" rx="3" fill="#EE5B2B" opacity="0.4"/>
-    <rect x="78" y="86" width="20" height="6" rx="3" fill="#EE5B2B" opacity="0.2"/>
-    <text x="100" y="150" text-anchor="middle" fill="#1D2330" font-size="18" font-weight="700">Analyze</text>
-    <text x="100" y="174" text-anchor="middle" fill="#676F7E" font-size="13">200+ benchmarks</text>
-  </g>
+  <!-- Step 2 -->
+  <circle cx="370" cy="80" r="44" fill="rgba(238, 91, 43, 0.07)"/>
+  <rect x="350" y="64" width="40" height="5" rx="2.5" fill="#EE5B2B"/>
+  <rect x="350" y="74" width="32" height="5" rx="2.5" fill="#EE5B2B" opacity="0.6"/>
+  <rect x="350" y="84" width="24" height="5" rx="2.5" fill="#EE5B2B" opacity="0.3"/>
+  <text x="370" y="152" text-anchor="middle" fill="#1D2330" font-size="15" font-weight="700">Analyze</text>
 
-  <!-- Arrow 2 -->
-  <g transform="translate(525, 95)">
-    <line x1="0" y1="0" x2="60" y2="0" stroke="#E5E7EB" stroke-width="2.5" stroke-linecap="round"/>
-    <polygon points="55,-5 65,0 55,5" fill="#E5E7EB"/>
-  </g>
+  <!-- Arrow -->
+  <line x1="440" y1="80" x2="500" y2="80" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="496,75 506,80 496,85" fill="#E5E7EB"/>
 
-  <!-- Step 3: Review -->
-  <g transform="translate(620, 30)">
-    <circle cx="100" cy="70" r="50" fill="rgba(238, 91, 43, 0.08)"/>
-    <circle cx="100" cy="62" r="12" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
-    <path d="M88 82 C88 74, 112 74, 112 82" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
-    <text x="100" y="150" text-anchor="middle" fill="#1D2330" font-size="18" font-weight="700">Review</text>
-    <text x="100" y="174" text-anchor="middle" fill="#676F7E" font-size="13">Operator validated</text>
-  </g>
+  <!-- Step 3 -->
+  <circle cx="590" cy="80" r="44" fill="rgba(238, 91, 43, 0.07)"/>
+  <circle cx="590" cy="72" r="10" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
+  <path d="M580 90 C580 82, 600 82, 600 90" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
+  <text x="590" y="152" text-anchor="middle" fill="#1D2330" font-size="15" font-weight="700">Review</text>
 
-  <!-- Arrow 3 -->
-  <g transform="translate(805, 95)">
-    <line x1="0" y1="0" x2="60" y2="0" stroke="#EE5B2B" stroke-width="2.5" stroke-linecap="round"/>
-    <polygon points="55,-5 65,0 55,5" fill="#EE5B2B"/>
-  </g>
+  <!-- Arrow (orange = final) -->
+  <line x1="660" y1="80" x2="720" y2="80" stroke="#EE5B2B" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="716,75 726,80 716,85" fill="#EE5B2B"/>
 
-  <!-- Step 4: Report (highlighted) -->
-  <g transform="translate(900, 30)">
-    <circle cx="100" cy="70" r="50" fill="#1D2330"/>
-    <rect x="82" y="50" width="36" height="42" rx="4" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
-    <polyline points="82,58 100,58 100,50" fill="none" stroke="#EE5B2B" stroke-width="2"/>
-    <line x1="90" y1="68" x2="110" y2="68" stroke="#EE5B2B" stroke-width="1.5"/>
-    <line x1="90" y1="76" x2="106" y2="76" stroke="#EE5B2B" stroke-width="1.5"/>
-    <line x1="90" y1="84" x2="102" y2="84" stroke="#EE5B2B" stroke-width="1.5"/>
-    <text x="100" y="150" text-anchor="middle" fill="#1D2330" font-size="18" font-weight="700">Report</text>
-    <text x="100" y="174" text-anchor="middle" fill="#676F7E" font-size="13">1 business day</text>
-  </g>
+  <!-- Step 4 (highlighted) -->
+  <circle cx="810" cy="80" r="44" fill="#1D2330"/>
+  <rect x="794" y="62" width="32" height="38" rx="3" fill="none" stroke="#EE5B2B" stroke-width="2.5"/>
+  <line x1="800" y1="74" x2="820" y2="74" stroke="#EE5B2B" stroke-width="1.5"/>
+  <line x1="800" y1="82" x2="816" y2="82" stroke="#EE5B2B" stroke-width="1.5"/>
+  <line x1="800" y1="90" x2="812" y2="90" stroke="#EE5B2B" stroke-width="1.5"/>
+  <text x="810" y="152" text-anchor="middle" fill="#1D2330" font-size="15" font-weight="700">Report</text>
 
-  <!-- Bottom labels -->
-  <rect x="60" y="220" width="240" height="40" rx="20" fill="#F6F7F8"/>
-  <text x="180" y="245" text-anchor="middle" fill="#676F7E" font-size="12">Deal team report</text>
-  <rect x="900" y="220" width="240" height="40" rx="20" fill="rgba(238, 91, 43, 0.08)"/>
-  <text x="1020" y="245" text-anchor="middle" fill="#EE5B2B" font-size="12">Company report</text>
+  <!-- Two report indicators -->
+  <circle cx="940" cy="60" r="20" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+  <rect x="932" y="52" width="16" height="18" rx="2" fill="none" stroke="#1D2330" stroke-width="1.5"/>
+  <line x1="936" y1="58" x2="944" y2="58" stroke="#1D2330" stroke-width="1"/>
+  <line x1="936" y1="62" x2="942" y2="62" stroke="#1D2330" stroke-width="1"/>
+  <text x="940" y="100" text-anchor="middle" fill="#676F7E" font-size="11">Deal team</text>
+
+  <circle cx="1040" cy="60" r="20" fill="rgba(238,91,43,0.06)" stroke="#EE5B2B" stroke-width="1"/>
+  <rect x="1032" y="52" width="16" height="18" rx="2" fill="none" stroke="#EE5B2B" stroke-width="1.5"/>
+  <line x1="1036" y1="58" x2="1044" y2="58" stroke="#EE5B2B" stroke-width="1"/>
+  <line x1="1036" y1="62" x2="1042" y2="62" stroke="#EE5B2B" stroke-width="1"/>
+  <text x="1040" y="100" text-anchor="middle" fill="#676F7E" font-size="11">Company</text>
 </svg>
