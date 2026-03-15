@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Inter, sans-serif">
+  <rect width="1200" height="500" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="600" letter-spacing="0.1em">HOW ENGAGEMENTS GROW</text>
+
+  <!-- Step 1: X-Ray -->
+  <g transform="translate(40, 70)">
+    <rect width="210" height="390" rx="12" fill="#F6F7F8"/>
+    <rect width="210" height="6" rx="3" fill="#EE5B2B" y="0"/>
+    <text x="105" y="40" text-anchor="middle" fill="#EE5B2B" font-size="12" font-weight="600" letter-spacing="0.05em">ENTRY POINT</text>
+    <text x="105" y="72" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">X-Ray</text>
+    <text x="105" y="100" text-anchor="middle" fill="#676F7E" font-size="14">From &#x20AC;5,000</text>
+    <line x1="30" y1="118" x2="180" y2="118" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="105" y="148" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="105" dy="0">Full Product &amp; Tech</tspan>
+      <tspan x="105" dy="20">assessment in 24hrs.</tspan>
+      <tspan x="105" dy="20">Two reports: exec +</tspan>
+      <tspan x="105" dy="20">technical.</tspan>
+    </text>
+    <rect x="35" y="260" width="140" height="36" rx="18" fill="#EE5B2B"/>
+    <text x="105" y="283" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="600">Run an X-Ray</text>
+    <text x="105" y="330" text-anchor="middle" fill="#676F7E" font-size="11">
+      <tspan x="105" dy="0">Every engagement</tspan>
+      <tspan x="105" dy="16">starts here</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <g transform="translate(258, 260)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="24,-4 32,0 24,4" fill="#E5E7EB"/>
+  </g>
+
+  <!-- Step 2: Due Diligence -->
+  <g transform="translate(278, 70)">
+    <rect width="210" height="390" rx="12" fill="#F6F7F8"/>
+    <rect width="210" height="4" rx="2" fill="#1D2330" y="0"/>
+    <text x="105" y="40" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="600" letter-spacing="0.05em">VALIDATE</text>
+    <text x="105" y="72" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Due Diligence</text>
+    <text x="105" y="100" text-anchor="middle" fill="#676F7E" font-size="14">From &#x20AC;9,000</text>
+    <line x1="30" y1="118" x2="180" y2="118" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="105" y="148" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="105" dy="0">Deep validation for</tspan>
+      <tspan x="105" dy="20">investment decisions.</tspan>
+      <tspan x="105" dy="20">Operator-led interviews</tspan>
+      <tspan x="105" dy="20">+ financial impact.</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <g transform="translate(496, 260)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="24,-4 32,0 24,4" fill="#E5E7EB"/>
+  </g>
+
+  <!-- Step 3: Balanced Roadmap -->
+  <g transform="translate(516, 70)">
+    <rect width="210" height="390" rx="12" fill="#F6F7F8"/>
+    <rect width="210" height="4" rx="2" fill="#1D2330" y="0"/>
+    <text x="105" y="40" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="600" letter-spacing="0.05em">ALIGN</text>
+    <text x="105" y="68" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Balanced</text>
+    <text x="105" y="92" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Roadmap</text>
+    <text x="105" y="118" text-anchor="middle" fill="#676F7E" font-size="14">From &#x20AC;8,000</text>
+    <line x1="30" y1="136" x2="180" y2="136" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="105" y="164" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="105" dy="0">Align product roadmap</tspan>
+      <tspan x="105" dy="20">with commercial strategy.</tspan>
+      <tspan x="105" dy="20">BON business cases.</tspan>
+      <tspan x="105" dy="20">3-month program.</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow 3 -->
+  <g transform="translate(734, 260)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="24,-4 32,0 24,4" fill="#E5E7EB"/>
+  </g>
+
+  <!-- Step 4: Team Acceleration -->
+  <g transform="translate(754, 70)">
+    <rect width="210" height="390" rx="12" fill="#F6F7F8"/>
+    <rect width="210" height="4" rx="2" fill="#1D2330" y="0"/>
+    <text x="105" y="40" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="600" letter-spacing="0.05em">EXECUTE</text>
+    <text x="105" y="68" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Team</text>
+    <text x="105" y="92" text-anchor="middle" fill="#1D2330" font-size="20" font-weight="700">Acceleration</text>
+    <text x="105" y="118" text-anchor="middle" fill="#676F7E" font-size="14">From &#x20AC;36,000</text>
+    <line x1="30" y1="136" x2="180" y2="136" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="105" y="164" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="105" dy="0">Hands-on work with</tspan>
+      <tspan x="105" dy="20">your teams. Process,</tspan>
+      <tspan x="105" dy="20">practices, delivery.</tspan>
+      <tspan x="105" dy="20">3-6 month program.</tspan>
+    </text>
+  </g>
+
+  <!-- Arrow 4 -->
+  <g transform="translate(972, 260)">
+    <line x1="0" y1="0" x2="24" y2="0" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="24,-4 32,0 24,4" fill="#E5E7EB"/>
+  </g>
+
+  <!-- Step 5: Fractional Leadership -->
+  <g transform="translate(992, 70)">
+    <rect width="180" height="390" rx="12" fill="rgba(238, 91, 43, 0.03)" stroke="#EE5B2B" stroke-width="1.5"/>
+    <rect width="180" height="4" rx="2" fill="#EE5B2B" y="0"/>
+    <text x="90" y="40" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="600" letter-spacing="0.05em">SUSTAIN</text>
+    <text x="90" y="68" text-anchor="middle" fill="#1D2330" font-size="18" font-weight="700">Fractional</text>
+    <text x="90" y="90" text-anchor="middle" fill="#1D2330" font-size="18" font-weight="700">Leadership</text>
+    <text x="90" y="116" text-anchor="middle" fill="#676F7E" font-size="14">From &#x20AC;10K/mo</text>
+    <line x1="20" y1="134" x2="160" y2="134" stroke="rgba(238, 91, 43, 0.15)" stroke-width="1"/>
+    <text x="90" y="162" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="90" dy="0">Embedded operator.</tspan>
+      <tspan x="90" dy="20">CTO/CPO-level</tspan>
+      <tspan x="90" dy="20">leadership without</tspan>
+      <tspan x="90" dy="20">the full-time hire.</tspan>
+    </text>
+  </g>
+</svg>

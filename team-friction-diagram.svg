@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" font-family="Inter, sans-serif">
+  <rect width="1200" height="500" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="600" y="35" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">WHERE TEAMS LOSE TIME</text>
+  <text x="600" y="62" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">The friction points we diagnose</text>
+
+  <!-- Central flow -->
+  <g transform="translate(100, 100)">
+    <!-- Idea to Delivery flow -->
+    <rect x="0" y="60" width="120" height="50" rx="8" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="60" y="90" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Idea</text>
+
+    <line x1="120" y1="85" x2="175" y2="85" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="170,80 180,85 170,90" fill="#E5E7EB"/>
+
+    <rect x="180" y="60" width="120" height="50" rx="8" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="240" y="90" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Spec</text>
+
+    <line x1="300" y1="85" x2="355" y2="85" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="350,80 360,85 350,90" fill="#E5E7EB"/>
+
+    <rect x="360" y="60" width="120" height="50" rx="8" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="420" y="90" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Build</text>
+
+    <line x1="480" y1="85" x2="535" y2="85" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="530,80 540,85 530,90" fill="#E5E7EB"/>
+
+    <rect x="540" y="60" width="120" height="50" rx="8" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="600" y="90" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Review</text>
+
+    <line x1="660" y1="85" x2="715" y2="85" stroke="#E5E7EB" stroke-width="2"/>
+    <polygon points="710,80 720,85 710,90" fill="#E5E7EB"/>
+
+    <rect x="720" y="60" width="120" height="50" rx="8" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="780" y="90" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Deploy</text>
+
+    <line x1="840" y1="85" x2="895" y2="85" stroke="#22C55E" stroke-width="2"/>
+    <polygon points="890,80 900,85 890,90" fill="#22C55E"/>
+
+    <rect x="900" y="60" width="120" height="50" rx="8" fill="rgba(34, 197, 94, 0.06)" stroke="#22C55E" stroke-width="1.5"/>
+    <text x="960" y="90" text-anchor="middle" fill="#22C55E" font-size="13" font-weight="600">Value</text>
+  </g>
+
+  <!-- Friction callouts — positioned BELOW the flow with clear spacing -->
+
+  <!-- Friction 1: Unclear requirements (below Spec) -->
+  <g transform="translate(180, 225)">
+    <line x1="100" y1="-15" x2="100" y2="-55" stroke="#EE5B2B" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+    <rect x="0" y="0" width="210" height="70" rx="10" fill="rgba(238, 91, 43, 0.04)" stroke="rgba(238, 91, 43, 0.15)" stroke-width="1"/>
+    <circle cx="22" cy="22" r="12" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="22" y="27" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="700">1</text>
+    <text x="44" y="27" fill="#1D2330" font-size="12" font-weight="600">Unclear requirements</text>
+    <text x="22" y="48" fill="#676F7E" font-size="11">Specs change mid-sprint. Teams</text>
+    <text x="22" y="62" fill="#676F7E" font-size="11">build the wrong thing.</text>
+  </g>
+
+  <!-- Friction 2: Handoff failures (below Build) -->
+  <g transform="translate(400, 310)">
+    <line x1="60" y1="-15" x2="60" y2="-100" stroke="#EE5B2B" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+    <rect x="0" y="0" width="210" height="70" rx="10" fill="rgba(238, 91, 43, 0.04)" stroke="rgba(238, 91, 43, 0.15)" stroke-width="1"/>
+    <circle cx="22" cy="22" r="12" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="22" y="27" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="700">2</text>
+    <text x="44" y="27" fill="#1D2330" font-size="12" font-weight="600">Handoff failures</text>
+    <text x="22" y="48" fill="#676F7E" font-size="11">Context lost between product</text>
+    <text x="22" y="62" fill="#676F7E" font-size="11">and engineering.</text>
+  </g>
+
+  <!-- Friction 3: Rework loops (below Review) -->
+  <g transform="translate(580, 225)">
+    <line x1="100" y1="-15" x2="100" y2="-55" stroke="#EE5B2B" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+    <rect x="0" y="0" width="210" height="70" rx="10" fill="rgba(238, 91, 43, 0.04)" stroke="rgba(238, 91, 43, 0.15)" stroke-width="1"/>
+    <circle cx="22" cy="22" r="12" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="22" y="27" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="700">3</text>
+    <text x="44" y="27" fill="#1D2330" font-size="12" font-weight="600">Rework loops</text>
+    <text x="22" y="48" fill="#676F7E" font-size="11">PRs bounce. Code review finds</text>
+    <text x="22" y="62" fill="#676F7E" font-size="11">issues that specs should catch.</text>
+  </g>
+
+  <!-- Friction 4: Deployment fear (below Deploy) -->
+  <g transform="translate(780, 310)">
+    <line x1="60" y1="-15" x2="60" y2="-100" stroke="#EE5B2B" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+    <rect x="0" y="0" width="210" height="70" rx="10" fill="rgba(238, 91, 43, 0.04)" stroke="rgba(238, 91, 43, 0.15)" stroke-width="1"/>
+    <circle cx="22" cy="22" r="12" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="22" y="27" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="700">4</text>
+    <text x="44" y="27" fill="#1D2330" font-size="12" font-weight="600">Deployment fear</text>
+    <text x="22" y="48" fill="#676F7E" font-size="11">No tests, manual QA. Releases</text>
+    <text x="22" y="62" fill="#676F7E" font-size="11">are stressful, not routine.</text>
+  </g>
+
+  <!-- Bottom: what we do about it -->
+  <g transform="translate(80, 405)">
+    <rect width="1040" height="80" rx="12" fill="#F6F7F8"/>
+    <text x="30" y="28" fill="#1D2330" font-size="16" font-weight="700">The Team Acceleration Program removes friction, not adds headcount.</text>
+    <text x="30" y="50" fill="#676F7E" font-size="13">We map every friction point, quantify the time lost, and fix them one by one.</text>
+    <text x="30" y="70" fill="#676F7E" font-size="13">PM operating model. Engineering practices. ROI dashboard. Team playbook. 3-6 months.</text>
+    <rect x="880" y="22" width="130" height="36" rx="18" fill="#EE5B2B"/>
+    <text x="945" y="45" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">Run an X-Ray</text>
+  </g>
+</svg>

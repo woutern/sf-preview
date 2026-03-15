@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" font-family="Inter, sans-serif">
+  <rect width="1200" height="360" fill="#1D2330"/>
+
+  <!-- Title -->
+  <text x="600" y="40" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="11" font-weight="600" letter-spacing="0.15em">DUE DILIGENCE TIMELINE</text>
+
+  <!-- Timeline line -->
+  <line x1="100" y1="120" x2="1100" y2="120" stroke="rgba(255,255,255,0.1)" stroke-width="2"/>
+
+  <!-- Progress fill -->
+  <line x1="100" y1="120" x2="400" y2="120" stroke="#EE5B2B" stroke-width="3"/>
+  <line x1="400" y1="120" x2="700" y2="120" stroke="#EE5B2B" stroke-width="3" opacity="0.6"/>
+  <line x1="700" y1="120" x2="900" y2="120" stroke="#EE5B2B" stroke-width="3" opacity="0.4"/>
+  <line x1="900" y1="120" x2="1100" y2="120" stroke="#EE5B2B" stroke-width="3" opacity="0.2"/>
+
+  <!-- Day 1: X-Ray -->
+  <g transform="translate(100, 80)">
+    <circle cx="0" cy="40" r="12" fill="#EE5B2B"/>
+    <text x="0" y="45" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">1</text>
+    <text x="0" y="0" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="600">DAY 1</text>
+    <text x="0" y="80" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700">X-Ray</text>
+    <text x="0" y="105" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">Automated assessment</text>
+    <text x="0" y="122" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">200+ benchmarks</text>
+    <rect x="-55" y="140" width="110" height="26" rx="13" fill="rgba(238, 91, 43, 0.15)"/>
+    <text x="0" y="158" text-anchor="middle" fill="#EE5B2B" font-size="11" font-weight="500">Reports delivered</text>
+  </g>
+
+  <!-- Week 1: Deep Dive -->
+  <g transform="translate(400, 80)">
+    <circle cx="0" cy="40" r="12" fill="rgba(238, 91, 43, 0.6)"/>
+    <text x="0" y="45" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">2</text>
+    <text x="0" y="0" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11" font-weight="600">WEEK 1</text>
+    <text x="0" y="80" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700">Deep Dive</text>
+    <text x="0" y="105" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">Operator-led interviews</text>
+    <text x="0" y="122" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">CTO, engineers, product</text>
+    <rect x="-65" y="140" width="130" height="26" rx="13" fill="rgba(255,255,255,0.06)"/>
+    <text x="0" y="158" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11" font-weight="500">Cross-referencing</text>
+  </g>
+
+  <!-- Week 1-2: Analysis -->
+  <g transform="translate(700, 80)">
+    <circle cx="0" cy="40" r="12" fill="rgba(238, 91, 43, 0.4)"/>
+    <text x="0" y="45" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">3</text>
+    <text x="0" y="0" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11" font-weight="600">WEEK 1-2</text>
+    <text x="0" y="80" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700">Analysis</text>
+    <text x="0" y="105" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">Financial impact analysis</text>
+    <text x="0" y="122" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">Risk-mitigant matrix</text>
+    <rect x="-65" y="140" width="130" height="26" rx="13" fill="rgba(255,255,255,0.06)"/>
+    <text x="0" y="158" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11" font-weight="500">Quantified in euros</text>
+  </g>
+
+  <!-- Week 2: IC Deliverable -->
+  <g transform="translate(1000, 80)">
+    <circle cx="0" cy="40" r="12" fill="rgba(238, 91, 43, 0.2)"/>
+    <text x="0" y="45" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="700">4</text>
+    <text x="0" y="0" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11" font-weight="600">WEEK 2</text>
+    <text x="0" y="80" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="700">IC Deliverable</text>
+    <text x="0" y="105" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">Investment-grade report</text>
+    <text x="0" y="122" text-anchor="middle" fill="rgba(255,255,255,0.5)" font-size="12">Ready for committee</text>
+    <rect x="-55" y="140" width="110" height="26" rx="13" fill="rgba(255,255,255,0.06)"/>
+    <text x="0" y="158" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="11" font-weight="500">Deal walkthrough</text>
+  </g>
+
+  <!-- Bottom comparison -->
+  <rect x="60" y="300" width="500" height="40" rx="8" fill="rgba(238, 91, 43, 0.08)"/>
+  <text x="310" y="325" text-anchor="middle" fill="#EE5B2B" font-size="13" font-weight="600">Scaleflow: 1-2 weeks, €9-10K</text>
+  <rect x="640" y="300" width="500" height="40" rx="8" fill="rgba(255,255,255,0.03)"/>
+  <text x="890" y="325" text-anchor="middle" fill="rgba(255,255,255,0.3)" font-size="13">Traditional: 3-6 weeks, €25-50K</text>
+</svg>

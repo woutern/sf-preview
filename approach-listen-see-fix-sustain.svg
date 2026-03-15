@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" font-family="Inter, sans-serif">
+  <rect width="1200" height="300" fill="#FFFFFF"/>
+
+  <!-- Connecting line -->
+  <line x1="160" y1="80" x2="1040" y2="80" stroke="#E5E7EB" stroke-width="2" stroke-dasharray="6,4"/>
+
+  <!-- Step 1: Listen -->
+  <g transform="translate(60, 30)">
+    <circle cx="100" cy="50" r="32" fill="#F6F7F8" stroke="#EE5B2B" stroke-width="2"/>
+    <text x="100" y="57" text-anchor="middle" fill="#EE5B2B" font-size="16" font-weight="700">01</text>
+    <text x="100" y="115" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Listen</text>
+    <text x="100" y="145" text-anchor="middle" fill="#676F7E" font-size="13" width="180">
+      <tspan x="100" dy="0">Understand the challenges,</tspan>
+      <tspan x="100" dy="18">uncertainties, and risks around</tspan>
+      <tspan x="100" dy="18">your Commercial Ambition.</tspan>
+    </text>
+  </g>
+
+  <!-- Step 2: See -->
+  <g transform="translate(340, 30)">
+    <circle cx="100" cy="50" r="32" fill="#F6F7F8" stroke="#EE5B2B" stroke-width="2"/>
+    <text x="100" y="57" text-anchor="middle" fill="#EE5B2B" font-size="16" font-weight="700">02</text>
+    <text x="100" y="115" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">See</text>
+    <text x="100" y="145" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="100" dy="0">Understand the gap between</tspan>
+      <tspan x="100" dy="18">what you're planning and what</tspan>
+      <tspan x="100" dy="18">technology can deliver.</tspan>
+    </text>
+  </g>
+
+  <!-- Step 3: Fix -->
+  <g transform="translate(620, 30)">
+    <circle cx="100" cy="50" r="32" fill="#F6F7F8" stroke="#EE5B2B" stroke-width="2"/>
+    <text x="100" y="57" text-anchor="middle" fill="#EE5B2B" font-size="16" font-weight="700">03</text>
+    <text x="100" y="115" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Fix</text>
+    <text x="100" y="145" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="100" dy="0">Close the gap with hands-on</tspan>
+      <tspan x="100" dy="18">support from operators who've</tspan>
+      <tspan x="100" dy="18">done it themselves.</tspan>
+    </text>
+  </g>
+
+  <!-- Step 4: Sustain -->
+  <g transform="translate(900, 30)">
+    <circle cx="100" cy="50" r="32" fill="#1D2330" stroke="#1D2330" stroke-width="2"/>
+    <text x="100" y="57" text-anchor="middle" fill="#EE5B2B" font-size="16" font-weight="700">04</text>
+    <text x="100" y="115" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Sustain</text>
+    <text x="100" y="145" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="100" dy="0">Keep it closed over time.</tspan>
+      <tspan x="100" dy="18">Monitoring, measuring,</tspan>
+      <tspan x="100" dy="18">and course-correcting.</tspan>
+    </text>
+  </g>
+</svg>

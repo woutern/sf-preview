@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Inter, sans-serif">
+  <rect width="1200" height="440" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="600" y="35" text-anchor="middle" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">PORTFOLIO INTELLIGENCE</text>
+  <text x="600" y="65" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Track technical health across your portfolio</text>
+
+  <!-- Portfolio grid -->
+  <!-- Company 1 - Healthy -->
+  <g transform="translate(60, 100)">
+    <rect width="250" height="130" rx="12" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <rect width="250" height="4" rx="2" fill="#22C55E"/>
+    <text x="20" y="35" fill="#1D2330" font-size="14" font-weight="600">Portfolio Co. A</text>
+    <text x="20" y="55" fill="#676F7E" font-size="11">Series B SaaS — CRM vertical</text>
+    <rect x="170" y="20" width="60" height="22" rx="11" fill="rgba(34, 197, 94, 0.1)"/>
+    <text x="200" y="35" text-anchor="middle" fill="#22C55E" font-size="10" font-weight="600">Healthy</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="20" y="90" fill="#676F7E" font-size="11">Last X-Ray: Feb 2026</text>
+    <text x="20" y="108" fill="#676F7E" font-size="11">Velocity: <tspan fill="#22C55E" font-weight="600">+34%</tspan> since baseline</text>
+  </g>
+
+  <!-- Company 2 - Watch -->
+  <g transform="translate(340, 100)">
+    <rect width="250" height="130" rx="12" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <rect width="250" height="4" rx="2" fill="#EAB308"/>
+    <text x="20" y="35" fill="#1D2330" font-size="14" font-weight="600">Portfolio Co. B</text>
+    <text x="20" y="55" fill="#676F7E" font-size="11">Growth — logistics platform</text>
+    <rect x="170" y="20" width="60" height="22" rx="11" fill="rgba(234, 179, 8, 0.1)"/>
+    <text x="200" y="35" text-anchor="middle" fill="#EAB308" font-size="10" font-weight="600">Watch</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="20" y="90" fill="#676F7E" font-size="11">Last X-Ray: Jan 2026</text>
+    <text x="20" y="108" fill="#676F7E" font-size="11">Key-person risk: <tspan fill="#EAB308" font-weight="600">elevated</tspan></text>
+  </g>
+
+  <!-- Company 3 - Action needed -->
+  <g transform="translate(620, 100)">
+    <rect width="250" height="130" rx="12" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <rect width="250" height="4" rx="2" fill="#EE5B2B"/>
+    <text x="20" y="35" fill="#1D2330" font-size="14" font-weight="600">Portfolio Co. C</text>
+    <text x="20" y="55" fill="#676F7E" font-size="11">Series A — AI/ML platform</text>
+    <rect x="155" y="20" width="75" height="22" rx="11" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="192" y="35" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="600">Action</text>
+    <line x1="20" y1="70" x2="230" y2="70" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="20" y="90" fill="#676F7E" font-size="11">Last X-Ray: Mar 2026</text>
+    <text x="20" y="108" fill="#676F7E" font-size="11">Security findings: <tspan fill="#EE5B2B" font-weight="600">2 critical</tspan></text>
+  </g>
+
+  <!-- Company 4 - New acquisition -->
+  <g transform="translate(900, 100)">
+    <rect width="250" height="130" rx="12" fill="rgba(238, 91, 43, 0.03)" stroke="#EE5B2B" stroke-width="1.5" stroke-dasharray="6,4"/>
+    <text x="125" y="50" text-anchor="middle" fill="#EE5B2B" font-size="13" font-weight="600">New Target</text>
+    <text x="125" y="72" text-anchor="middle" fill="#676F7E" font-size="11">Pre-acquisition screening</text>
+    <rect x="50" y="90" width="150" height="30" rx="15" fill="#EE5B2B"/>
+    <text x="125" y="110" text-anchor="middle" fill="#FFFFFF" font-size="12" font-weight="600">Run an X-Ray</text>
+  </g>
+
+  <!-- Portfolio summary bar -->
+  <g transform="translate(60, 260)">
+    <rect width="1080" height="70" rx="10" fill="#1D2330"/>
+    <text x="30" y="28" fill="rgba(255,255,255,0.4)" font-size="10" font-weight="600" letter-spacing="0.1em">PORTFOLIO HEALTH DASHBOARD</text>
+
+    <circle cx="50" cy="52" r="8" fill="#22C55E"/>
+    <text x="68" y="57" fill="rgba(255,255,255,0.6)" font-size="12">3 Healthy</text>
+
+    <circle cx="180" cy="52" r="8" fill="#EAB308"/>
+    <text x="198" y="57" fill="rgba(255,255,255,0.6)" font-size="12">2 Watch</text>
+
+    <circle cx="300" cy="52" r="8" fill="#EE5B2B"/>
+    <text x="318" y="57" fill="rgba(255,255,255,0.6)" font-size="12">1 Action</text>
+
+    <text x="1050" y="50" text-anchor="end" fill="rgba(255,255,255,0.4)" font-size="12">8 portfolio companies monitored · 24 X-Rays this year</text>
+  </g>
+
+  <!-- Bottom value props -->
+  <g transform="translate(60, 360)">
+    <rect width="340" height="60" rx="10" fill="#F6F7F8"/>
+    <text x="170" y="26" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Pre-acquisition screening</text>
+    <text x="170" y="46" text-anchor="middle" fill="#676F7E" font-size="12">Tech read before the LOI — 24 hours</text>
+  </g>
+  <g transform="translate(430, 360)">
+    <rect width="340" height="60" rx="10" fill="#F6F7F8"/>
+    <text x="170" y="26" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Ongoing monitoring</text>
+    <text x="170" y="46" text-anchor="middle" fill="#676F7E" font-size="12">Quarterly X-Rays detect drift early</text>
+  </g>
+  <g transform="translate(800, 360)">
+    <rect width="340" height="60" rx="10" fill="#F6F7F8"/>
+    <text x="170" y="26" text-anchor="middle" fill="#1D2330" font-size="13" font-weight="600">Value creation</text>
+    <text x="170" y="46" text-anchor="middle" fill="#676F7E" font-size="12">Fix findings → protect EBITDA</text>
+  </g>
+</svg>

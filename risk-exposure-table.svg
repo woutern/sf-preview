@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" font-family="Inter, sans-serif">
+  <rect width="1200" height="400" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="80" y="35" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.15em">X-RAY BENCHMARK — RISK EXPOSURE</text>
+
+  <!-- Table header -->
+  <rect x="40" y="55" width="1120" height="40" rx="0" fill="#1D2330"/>
+  <text x="70" y="80" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="600">FINDING</text>
+  <text x="580" y="80" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="600">SEVERITY</text>
+  <text x="710" y="80" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="600">ACTION</text>
+
+  <!-- Row 1: Critical -->
+  <rect x="40" y="95" width="1120" height="60" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="0.5"/>
+  <rect x="40" y="95" width="4" height="60" fill="#EF4444"/>
+  <text x="70" y="120" fill="#1D2330" font-size="14" font-weight="600">Potential SQL Injection</text>
+  <text x="70" y="140" fill="#676F7E" font-size="12">ReservationService uses FromSqlRaw with string-interpolated WHERE clause</text>
+  <rect x="565" y="110" width="70" height="24" rx="12" fill="rgba(239, 68, 68, 0.1)"/>
+  <text x="600" y="127" text-anchor="middle" fill="#EF4444" font-size="11" font-weight="600">High</text>
+  <text x="710" y="130" fill="#676F7E" font-size="12">Pre-close: audit and remediate query construction</text>
+
+  <!-- Row 2: Moderate -->
+  <rect x="40" y="155" width="1120" height="60" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="0.5"/>
+  <rect x="40" y="155" width="4" height="60" fill="#EAB308"/>
+  <text x="70" y="180" fill="#1D2330" font-size="14" font-weight="600">Key-Person Concentration Risk</text>
+  <text x="70" y="200" fill="#676F7E" font-size="12">Two developers produce 72% of all commits. ML model: single contributor.</text>
+  <rect x="555" y="170" width="90" height="24" rx="12" fill="rgba(234, 179, 8, 0.1)"/>
+  <text x="600" y="187" text-anchor="middle" fill="#EAB308" font-size="11" font-weight="600">Moderate</text>
+  <text x="710" y="190" fill="#676F7E" font-size="12">Post-investment: cross-train, document architecture</text>
+
+  <!-- Row 3: Moderate -->
+  <rect x="40" y="215" width="1120" height="60" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="0.5"/>
+  <rect x="40" y="215" width="4" height="60" fill="#EAB308"/>
+  <text x="70" y="240" fill="#1D2330" font-size="14" font-weight="600">ML Pipeline Without Governance</text>
+  <text x="70" y="260" fill="#676F7E" font-size="12">No-show prediction model has no CI/CD, no automated tests, no code review.</text>
+  <rect x="555" y="230" width="90" height="24" rx="12" fill="rgba(234, 179, 8, 0.1)"/>
+  <text x="600" y="247" text-anchor="middle" fill="#EAB308" font-size="11" font-weight="600">Moderate</text>
+  <text x="710" y="250" fill="#676F7E" font-size="12">Post-investment: establish CI/CD and code review for ML</text>
+
+  <!-- Row 4: Low -->
+  <rect x="40" y="275" width="1120" height="60" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="0.5"/>
+  <rect x="40" y="275" width="4" height="60" fill="#22C55E"/>
+  <text x="70" y="300" fill="#1D2330" font-size="14" font-weight="600">Legacy Dependency Debt</text>
+  <text x="70" y="320" fill="#676F7E" font-size="12">12 deprecated NuGet packages from pre-.NET Core era. No Dependabot.</text>
+  <rect x="565" y="290" width="70" height="24" rx="12" fill="rgba(34, 197, 94, 0.1)"/>
+  <text x="600" y="307" text-anchor="middle" fill="#22C55E" font-size="11" font-weight="600">Low</text>
+  <text x="710" y="310" fill="#676F7E" font-size="12">Post-investment: remove legacy packages, add Dependabot</text>
+
+  <!-- Summary bar -->
+  <rect x="40" y="355" width="1120" height="35" rx="8" fill="#F6F7F8"/>
+  <circle cx="80" cy="372" r="6" fill="#EF4444"/><text x="95" y="377" fill="#676F7E" font-size="11">1 High</text>
+  <circle cx="180" cy="372" r="6" fill="#EAB308"/><text x="195" y="377" fill="#676F7E" font-size="11">2 Moderate</text>
+  <circle cx="300" cy="372" r="6" fill="#22C55E"/><text x="315" y="377" fill="#676F7E" font-size="11">1 Low</text>
+  <text x="1130" y="377" text-anchor="end" fill="#1D2330" font-size="12" font-weight="600">Verdict: Investable with conditions</text>
+</svg>

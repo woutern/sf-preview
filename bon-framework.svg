@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Inter, sans-serif">
+  <rect width="1200" height="440" fill="#FFFFFF"/>
+
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="600" letter-spacing="0.1em">SCALEFLOW BALANCED ROADMAP</text>
+  <text x="600" y="57" text-anchor="middle" fill="#1D2330" font-size="24" font-weight="700">Where is your engineering investment going?</text>
+  <text x="600" y="80" text-anchor="middle" fill="#676F7E" font-size="13">Every roadmap item gets a BON — a Back of Napkin business case — before it earns a spot.</text>
+
+  <!-- Build -->
+  <g transform="translate(60, 105)">
+    <rect width="340" height="300" rx="14" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="0" y="0" width="340" height="6" rx="3" fill="#EE5B2B"/>
+    <text x="170" y="50" text-anchor="middle" fill="#EE5B2B" font-size="36" font-weight="800">B</text>
+    <text x="170" y="80" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Build</text>
+    <text x="170" y="106" text-anchor="middle" fill="#676F7E" font-size="14">New features &amp; products</text>
+    <line x1="40" y1="125" x2="300" y2="125" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="170" y="155" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="170" dy="0">Innovation investment.</tspan>
+      <tspan x="170" dy="22">New capabilities that drive</tspan>
+      <tspan x="170" dy="22">growth and differentiation.</tspan>
+    </text>
+    <text x="170" y="230" text-anchor="middle" fill="#676F7E" font-size="11" font-style="italic">BON: What revenue does this unlock?</text>
+    <rect x="95" y="250" width="150" height="30" rx="15" fill="rgba(238, 91, 43, 0.08)"/>
+    <text x="170" y="270" text-anchor="middle" fill="#EE5B2B" font-size="12" font-weight="500">Vision-driven</text>
+  </g>
+
+  <!-- Operate -->
+  <g transform="translate(430, 105)">
+    <rect width="340" height="300" rx="14" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="0" y="0" width="340" height="6" rx="3" fill="#1D2330"/>
+    <text x="170" y="50" text-anchor="middle" fill="#1D2330" font-size="36" font-weight="800">O</text>
+    <text x="170" y="80" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">Operate</text>
+    <text x="170" y="106" text-anchor="middle" fill="#676F7E" font-size="14">Maintain &amp; improve existing</text>
+    <line x1="40" y1="125" x2="300" y2="125" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="170" y="155" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="170" dy="0">Efficiency investment.</tspan>
+      <tspan x="170" dy="22">Keep the lights on, reduce</tspan>
+      <tspan x="170" dy="22">debt, improve reliability.</tspan>
+    </text>
+    <text x="170" y="230" text-anchor="middle" fill="#676F7E" font-size="11" font-style="italic">BON: What cost or risk does this reduce?</text>
+    <rect x="95" y="250" width="150" height="30" rx="15" fill="rgba(29, 35, 48, 0.06)"/>
+    <text x="170" y="270" text-anchor="middle" fill="#1D2330" font-size="12" font-weight="500">Customer-driven</text>
+  </g>
+
+  <!-- iNnovate -->
+  <g transform="translate(800, 105)">
+    <rect width="340" height="300" rx="14" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <rect x="0" y="0" width="340" height="6" rx="3" fill="#676F7E"/>
+    <text x="170" y="50" text-anchor="middle" fill="#676F7E" font-size="36" font-weight="800">N</text>
+    <text x="170" y="80" text-anchor="middle" fill="#1D2330" font-size="22" font-weight="700">iNnovate</text>
+    <text x="170" y="106" text-anchor="middle" fill="#676F7E" font-size="14">Experiment &amp; explore</text>
+    <line x1="40" y1="125" x2="300" y2="125" stroke="#E5E7EB" stroke-width="1"/>
+    <text x="170" y="155" text-anchor="middle" fill="#676F7E" font-size="13">
+      <tspan x="170" dy="0">Future bets.</tspan>
+      <tspan x="170" dy="22">R&amp;D, prototypes, emerging</tspan>
+      <tspan x="170" dy="22">tech exploration.</tspan>
+    </text>
+    <text x="170" y="230" text-anchor="middle" fill="#676F7E" font-size="11" font-style="italic">BON: What future option does this create?</text>
+    <rect x="95" y="250" width="150" height="30" rx="15" fill="rgba(103, 111, 126, 0.08)"/>
+    <text x="170" y="270" text-anchor="middle" fill="#676F7E" font-size="12" font-weight="500">Research-driven</text>
+  </g>
+</svg>

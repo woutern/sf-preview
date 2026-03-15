@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" font-family="Inter, sans-serif">
+  <rect width="1200" height="440" fill="#FFFFFF"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="20" width="1120" height="52" rx="8" fill="#1D2330"/>
+  <text x="60" y="52" fill="#FFFFFF" font-size="14" font-weight="600">X-RAY BENCHMARK</text>
+  <text x="1140" y="52" text-anchor="end" fill="#676F7E" font-size="12">Sample Assessment</text>
+
+  <!-- Pillar 1: Delivery -->
+  <g transform="translate(40, 90)">
+    <rect width="350" height="100" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="50" cy="50" r="24" fill="rgba(34, 197, 94, 0.1)"/>
+    <text x="50" y="55" text-anchor="middle" fill="#22C55E" font-size="11" font-weight="700">STRONG</text>
+    <text x="90" y="38" fill="#1D2330" font-size="16" font-weight="600">Delivery Capacity</text>
+    <text x="90" y="58" fill="#676F7E" font-size="12">+88% velocity growth Q2-Q4</text>
+    <text x="90" y="76" fill="#676F7E" font-size="12">6 active contributors, 14% AI-assisted</text>
+  </g>
+
+  <!-- Pillar 2: Continuity -->
+  <g transform="translate(410, 90)">
+    <rect width="350" height="100" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="50" cy="50" r="24" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="50" y="55" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="700">MODERATE</text>
+    <text x="90" y="38" fill="#1D2330" font-size="16" font-weight="600">Continuity &amp; Resilience</text>
+    <text x="90" y="58" fill="#676F7E" font-size="12">72% commit concentration in 2 devs</text>
+    <text x="90" y="76" fill="#676F7E" font-size="12">Bus factor: 1 on ML pipeline</text>
+  </g>
+
+  <!-- Pillar 3: IP Depth -->
+  <g transform="translate(780, 90)">
+    <rect width="350" height="100" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="50" cy="50" r="24" fill="rgba(34, 197, 94, 0.1)"/>
+    <text x="50" y="55" text-anchor="middle" fill="#22C55E" font-size="11" font-weight="700">STRONG</text>
+    <text x="90" y="38" fill="#1D2330" font-size="16" font-weight="600">IP Depth &amp; Ecosystem</text>
+    <text x="90" y="58" fill="#676F7E" font-size="12">Custom prediction model, domain-specific</text>
+    <text x="90" y="76" fill="#676F7E" font-size="12">5 integrations, proprietary algorithms</text>
+  </g>
+
+  <!-- Pillar 4: Trajectory -->
+  <g transform="translate(40, 210)">
+    <rect width="350" height="100" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="50" cy="50" r="24" fill="rgba(34, 197, 94, 0.1)"/>
+    <text x="50" y="55" text-anchor="middle" fill="#22C55E" font-size="11" font-weight="700">STRONG</text>
+    <text x="90" y="38" fill="#1D2330" font-size="16" font-weight="600">Trajectory</text>
+    <text x="90" y="58" fill="#676F7E" font-size="12">Accelerating velocity, AI adoption</text>
+    <text x="90" y="76" fill="#676F7E" font-size="12">Active decomposition of monolith</text>
+  </g>
+
+  <!-- Pillar 5: Risk Exposure -->
+  <g transform="translate(410, 210)">
+    <rect width="350" height="100" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="50" cy="50" r="24" fill="rgba(238, 91, 43, 0.1)"/>
+    <text x="50" y="55" text-anchor="middle" fill="#EE5B2B" font-size="10" font-weight="700">MODERATE</text>
+    <text x="90" y="38" fill="#1D2330" font-size="16" font-weight="600">Risk Exposure</text>
+    <text x="90" y="58" fill="#676F7E" font-size="12">Potential SQL injection in core service</text>
+    <text x="90" y="76" fill="#676F7E" font-size="12">12 deprecated packages, 0 mobile tests</text>
+  </g>
+
+  <!-- Pillar 6: AI & Code Quality -->
+  <g transform="translate(780, 210)">
+    <rect width="350" height="100" rx="10" fill="#F6F7F8" stroke="#E5E7EB" stroke-width="1"/>
+    <circle cx="50" cy="50" r="24" fill="rgba(59, 130, 246, 0.1)"/>
+    <text x="50" y="52" text-anchor="middle" fill="#3B82F6" font-size="9" font-weight="700">ADEQUATE</text>
+    <text x="90" y="38" fill="#1D2330" font-size="16" font-weight="600">AI &amp; Code Quality</text>
+    <text x="90" y="58" fill="#676F7E" font-size="12">14% AI-assisted commits, modern stack</text>
+    <text x="90" y="76" fill="#676F7E" font-size="12">Testing gaps in mobile &amp; ML pipeline</text>
+  </g>
+
+  <!-- Verdict bar -->
+  <g transform="translate(40, 335)">
+    <rect width="1090" height="80" rx="10" fill="#1D2330"/>
+    <text x="30" y="35" fill="#676F7E" font-size="11" font-weight="600" letter-spacing="0.1em">VERDICT</text>
+    <text x="30" y="60" fill="#FFFFFF" font-size="22" font-weight="700">Investable with conditions</text>
+    <rect x="840" y="20" width="250" height="40" rx="20" fill="rgba(238, 91, 43, 0.2)"/>
+    <text x="965" y="46" text-anchor="middle" fill="#EE5B2B" font-size="14" font-weight="600">3 findings to address pre-close</text>
+  </g>
+</svg>
